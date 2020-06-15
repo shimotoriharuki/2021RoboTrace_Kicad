@@ -1102,9 +1102,9 @@ Text GLabel 5450 4200 2    50   Input ~ 0
 LED_G
 Text GLabel 5450 4300 2    50   Input ~ 0
 LED_B
-Text GLabel 3350 6900 3    50   Input ~ 0
-ENCODER_R_A
 Text GLabel 3550 6900 3    50   Input ~ 0
+ENCODER_R_A
+Text GLabel 3350 6900 3    50   Input ~ 0
 ENCODER_R_B
 Text GLabel 4150 6900 3    50   Input ~ 0
 I2C2_SDA
@@ -1148,9 +1148,9 @@ Text GLabel 3550 3500 1    50   Input ~ 0
 USART_RX
 Text GLabel 3450 3500 1    50   Input ~ 0
 SW1
-Text GLabel 3250 3500 1    50   Input ~ 0
-ESC1_PWM
 Text GLabel 3150 3500 1    50   Input ~ 0
+ESC1_PWM
+Text GLabel 3250 3500 1    50   Input ~ 0
 ESC2_PWM
 Text GLabel 3050 3500 1    50   Input ~ 0
 I2C1_SCL

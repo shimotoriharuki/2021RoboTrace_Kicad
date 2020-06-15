@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L shimoharu_library:STM32F469VG U8
+L MainBoard_v1-rescue:STM32F469VG-shimoharu_library U8
 U 1 1 5EC152BC
 P 3750 5200
 F 0 "U8" H 3700 5100 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/TPS62140.pdf" H 10750 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L shimoharu_library:ICM20648 U7
+L MainBoard_v1-rescue:ICM20648-shimoharu_library U7
 U 1 1 5EC2BB3D
 P 7750 4450
 F 0 "U7" V 8900 3400 50  0000 L CNN
@@ -351,7 +351,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 1800 12600 2150
 $Comp
-L shimoharu_library:SI7463DP U1
+L MainBoard_v1-rescue:SI7463DP-shimoharu_library U1
 U 1 1 5ECEEBFF
 P 7250 1350
 F 0 "U1" H 7250 1725 50  0000 C CNN
@@ -1148,9 +1148,9 @@ Text GLabel 3550 3500 1    50   Input ~ 0
 USART_RX
 Text GLabel 3450 3500 1    50   Input ~ 0
 SW1
-Text GLabel 3250 3500 1    50   Input ~ 0
-ESC1_PWM
 Text GLabel 3150 3500 1    50   Input ~ 0
+ESC1_PWM
+Text GLabel 3250 3500 1    50   Input ~ 0
 ESC2_PWM
 Text GLabel 3050 3500 1    50   Input ~ 0
 I2C1_SCL
@@ -1310,7 +1310,7 @@ USART_RX
 Text GLabel 5750 1350 0    50   Input ~ 0
 USART_TX
 $Comp
-L shimoharu_library:ECS-2520S33 U4
+L MainBoard_v1-rescue:ECS-2520S33-shimoharu_library U4
 U 1 1 5EDEF11C
 P 1600 1500
 F 0 "U4" H 2250 1850 50  0000 L CNN
@@ -1524,7 +1524,7 @@ F 3 "~" H 6750 8050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L shimoharu_library:DRV8701E U6
+L MainBoard_v1-rescue:DRV8701E-shimoharu_library U6
 U 1 1 5F14106D
 P 11600 4050
 F 0 "U6" H 11550 4100 50  0000 L CNN
@@ -1613,7 +1613,7 @@ Wire Wire Line
 	2000 7050 2000 7300
 Connection ~ 2000 7300
 $Comp
-L shimoharu_library:AON7400B Q1
+L MainBoard_v1-rescue:AON7400B-shimoharu_library Q1
 U 1 1 5F2EC114
 P 13150 3150
 F 0 "Q1" H 13125 2785 50  0000 C CNN
@@ -1896,7 +1896,7 @@ MOTOR_L_PWM
 Text GLabel 11550 4850 3    50   Input ~ 0
 MOTOR_L_PH
 $Comp
-L shimoharu_library:AON7400B Q2
+L MainBoard_v1-rescue:AON7400B-shimoharu_library Q2
 U 1 1 5F69D024
 P 13200 3650
 F 0 "Q2" H 13175 3285 50  0000 C CNN
@@ -1907,7 +1907,7 @@ F 3 "" V 13100 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L shimoharu_library:AON7400B Q3
+L MainBoard_v1-rescue:AON7400B-shimoharu_library Q3
 U 1 1 5F6DDAD1
 P 13200 4450
 F 0 "Q3" H 13175 4085 50  0000 C CNN
@@ -1918,7 +1918,7 @@ F 3 "" V 13100 4500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L shimoharu_library:AON7400B Q4
+L MainBoard_v1-rescue:AON7400B-shimoharu_library Q4
 U 1 1 5F6DDAD7
 P 13150 4950
 F 0 "Q4" H 13150 4700 50  0000 C CNN
@@ -2253,7 +2253,7 @@ Wire Wire Line
 	9900 3800 9900 4000
 Connection ~ 10700 3800
 $Comp
-L shimoharu_library:DRV8701E U10
+L MainBoard_v1-rescue:DRV8701E-shimoharu_library U10
 U 1 1 601A471B
 P 11650 7900
 F 0 "U10" H 11600 7950 50  0000 L CNN
@@ -2264,7 +2264,7 @@ F 3 "" H 11700 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L shimoharu_library:AON7400B Q5
+L MainBoard_v1-rescue:AON7400B-shimoharu_library Q5
 U 1 1 601A4721
 P 13200 7000
 F 0 "Q5" H 13175 6635 50  0000 C CNN
@@ -2547,7 +2547,7 @@ MOTOR_R_PWM
 Text GLabel 11600 8700 3    50   Input ~ 0
 MOTOR_R_PH
 $Comp
-L shimoharu_library:AON7400B Q6
+L MainBoard_v1-rescue:AON7400B-shimoharu_library Q6
 U 1 1 601A47BB
 P 13250 7500
 F 0 "Q6" H 13225 7135 50  0000 C CNN
@@ -2558,7 +2558,7 @@ F 3 "" V 13150 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L shimoharu_library:AON7400B Q8
+L MainBoard_v1-rescue:AON7400B-shimoharu_library Q8
 U 1 1 601A47C1
 P 13250 8300
 F 0 "Q8" H 13225 7935 50  0000 C CNN
@@ -2569,7 +2569,7 @@ F 3 "" V 13150 8350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L shimoharu_library:AON7400B Q9
+L MainBoard_v1-rescue:AON7400B-shimoharu_library Q9
 U 1 1 601A47C7
 P 13200 8800
 F 0 "Q9" H 13200 8550 50  0000 C CNN
@@ -4525,7 +4525,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 2150 10650 2150
 $Comp
-L shimoharu_library:INA260 U5
+L MainBoard_v1-rescue:INA260-shimoharu_library U5
 U 1 1 5F0D5E82
 P 14100 3600
 F 0 "U5" H 14100 4181 50  0000 C CNN
@@ -4536,7 +4536,7 @@ F 3 "" H 14100 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L shimoharu_library:INA260 U9
+L MainBoard_v1-rescue:INA260-shimoharu_library U9
 U 1 1 5F0D980D
 P 14150 7450
 F 0 "U9" H 14150 8031 50  0000 C CNN
@@ -4568,7 +4568,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 8400 5400 8400
 $Comp
-L shimoharu_library:MMC5983MA U11
+L MainBoard_v1-rescue:MMC5983MA-shimoharu_library U11
 U 1 1 5F6DAF69
 P 4550 9100
 F 0 "U11" H 4750 9450 50  0000 C CNN
@@ -4608,7 +4608,7 @@ SW3
 Text GLabel 4600 10050 0    50   Input ~ 0
 SW4
 $Comp
-L shimoharu_library:SKRHAAE010 SW?
+L MainBoard_v1-rescue:SKRHAAE010-shimoharu_library SW?
 U 1 1 60E14073
 P 4950 10400
 AR Path="/5F238A80/60E14073" Ref="SW?"  Part="1" 
@@ -4797,7 +4797,7 @@ Connection ~ 5750 10800
 Wire Wire Line
 	5750 10800 5750 10900
 $Comp
-L shimoharu_library:OSTB0603C1C-A LED1
+L MainBoard_v1-rescue:OSTB0603C1C-A-shimoharu_library LED1
 U 1 1 60EC9890
 P 3000 10300
 AR Path="/60EC9890" Ref="LED1"  Part="1" 
@@ -5010,7 +5010,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 8950 2300 9300
 $Comp
-L shimoharu_library:LT1963A-TSSOP U2
+L MainBoard_v1-rescue:LT1963A-TSSOP-shimoharu_library U2
 U 1 1 5EEFE4E2
 P 14200 1350
 F 0 "U2" H 14200 1900 50  0000 C CNN
