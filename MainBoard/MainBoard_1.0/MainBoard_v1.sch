@@ -205,7 +205,7 @@ F 3 "~" H 8100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C2
+L MainBoard_v1-rescue:CP_Small-Device C2
 U 1 1 5EC9A733
 P 7750 1700
 F 0 "C2" H 7838 1746 50  0000 L CNN
@@ -310,7 +310,7 @@ $EndComp
 Wire Wire Line
 	12850 1050 12850 1200
 $Comp
-L Device:D_Zener_Small_ALT D3
+L MainBoard_v1-rescue:D_Zener_Small_ALT-Device D3
 U 1 1 5ECD6403
 P 12600 1700
 F 0 "D3" V 12600 1550 50  0000 L CNN
@@ -321,7 +321,7 @@ F 3 "~" V 12600 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener_Small_ALT D2
+L MainBoard_v1-rescue:D_Zener_Small_ALT-Device D2
 U 1 1 5ECD7671
 P 8900 1700
 F 0 "D2" V 8900 1750 50  0000 L CNN
@@ -334,7 +334,7 @@ $EndComp
 Wire Wire Line
 	8900 1800 8900 2150
 $Comp
-L Device:D_Schottky_Small_ALT D1
+L MainBoard_v1-rescue:D_Schottky_Small_ALT-Device D1
 U 1 1 5ECDC58D
 P 8750 1200
 F 0 "D1" H 8750 995 50  0000 C CNN
@@ -564,7 +564,7 @@ Wire Wire Line
 	1550 4600 2050 4600
 Connection ~ 1300 4500
 $Comp
-L Device:Ferrite_Bead_Small FB1
+L MainBoard_v1-rescue:Ferrite_Bead_Small-Device FB1
 U 1 1 5ECC6524
 P 1000 5700
 F 0 "FB1" V 763 5700 50  0000 C CNN
@@ -935,7 +935,7 @@ F 3 "~" H 8450 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small_ALT D4
+L MainBoard_v1-rescue:LED_Small_ALT-Device D4
 U 1 1 5ECAB4EE
 P 8450 1850
 F 0 "D4" V 8496 1782 50  0000 R CNN
@@ -989,7 +989,7 @@ F 3 "~" H 12850 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small_ALT D5
+L MainBoard_v1-rescue:LED_Small_ALT-Device D5
 U 1 1 5ECEEE7F
 P 12850 1850
 F 0 "D5" V 12896 1782 50  0000 R CNN
@@ -1028,7 +1028,7 @@ F 3 "~" H 15750 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small_ALT D6
+L MainBoard_v1-rescue:LED_Small_ALT-Device D6
 U 1 1 5ED0949D
 P 15750 1850
 F 0 "D6" V 15796 1782 50  0000 R CNN
@@ -1581,7 +1581,7 @@ Wire Wire Line
 	2000 8150 2000 8100
 Connection ~ 2000 8100
 $Comp
-L Device:D_Schottky_Small_ALT D7
+L MainBoard_v1-rescue:D_Schottky_Small_ALT-Device D7
 U 1 1 5F19FBEA
 P 1650 7400
 F 0 "D7" V 1700 7150 50  0000 C CNN
@@ -3275,7 +3275,7 @@ Connection ~ 8550 6800
 Wire Wire Line
 	8550 6800 8550 7050
 $Comp
-L Device:Ferrite_Bead_Small FB2
+L MainBoard_v1-rescue:Ferrite_Bead_Small-Device FB2
 U 1 1 60318787
 P 6850 5900
 F 0 "FB2" V 6800 5750 50  0000 C CNN
@@ -3286,7 +3286,7 @@ F 3 "~" H 6850 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB3
+L MainBoard_v1-rescue:Ferrite_Bead_Small-Device FB3
 U 1 1 60368094
 P 6850 6000
 F 0 "FB3" V 6800 5850 50  0000 C CNN
@@ -3297,7 +3297,7 @@ F 3 "~" H 6850 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB4
+L MainBoard_v1-rescue:Ferrite_Bead_Small-Device FB4
 U 1 1 603B73FE
 P 6850 6100
 F 0 "FB4" V 6800 5950 50  0000 C CNN
@@ -3308,7 +3308,7 @@ F 3 "~" H 6850 6100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB5
+L MainBoard_v1-rescue:Ferrite_Bead_Small-Device FB5
 U 1 1 60406759
 P 6850 6300
 F 0 "FB5" V 6800 6150 50  0000 C CNN
@@ -3319,7 +3319,7 @@ F 3 "~" H 6850 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB6
+L MainBoard_v1-rescue:Ferrite_Bead_Small-Device FB6
 U 1 1 60455AD2
 P 6850 6500
 F 0 "FB6" V 6800 6350 50  0000 C CNN
@@ -3330,7 +3330,7 @@ F 3 "~" H 6850 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB7
+L MainBoard_v1-rescue:Ferrite_Bead_Small-Device FB7
 U 1 1 604A4F68
 P 6850 6600
 F 0 "FB7" V 6800 6450 50  0000 C CNN
@@ -4248,7 +4248,7 @@ Connection ~ 9800 11000
 Wire Wire Line
 	9800 11000 10450 11000
 $Comp
-L Device:CP_Small C28
+L MainBoard_v1-rescue:CP_Small-Device C28
 U 1 1 67BA8F60
 P 14300 5400
 F 0 "C28" H 14388 5446 50  0000 L CNN
@@ -4285,7 +4285,7 @@ $EndComp
 Wire Wire Line
 	14300 5200 14300 5300
 $Comp
-L Device:CP_Small C44
+L MainBoard_v1-rescue:CP_Small-Device C44
 U 1 1 6806CE8E
 P 14150 9150
 F 0 "C44" H 14238 9196 50  0000 L CNN
@@ -4428,9 +4428,9 @@ F 3 "" H 6300 9250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 9200 6300 9250
-Text GLabel 6250 9900 0    50   Input ~ 0
-EXTRA1
 Text GLabel 6250 10000 0    50   Input ~ 0
+EXTRA1
+Text GLabel 6250 9900 0    50   Input ~ 0
 EXTRA2
 $Comp
 L power:+3.3V #PWR079
@@ -4843,7 +4843,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 10000 3400 10100
 $Comp
-L Device:LED_Small_ALT D8
+L MainBoard_v1-rescue:LED_Small_ALT-Device D8
 U 1 1 61039744
 P 1150 10550
 AR Path="/61039744" Ref="D8"  Part="1" 
@@ -4856,7 +4856,7 @@ F 3 "~" V 1150 10550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D9
+L MainBoard_v1-rescue:LED_Small_ALT-Device D9
 U 1 1 6103974A
 P 1450 10550
 AR Path="/6103974A" Ref="D9"  Part="1" 
