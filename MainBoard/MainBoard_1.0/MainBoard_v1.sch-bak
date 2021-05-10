@@ -449,12 +449,12 @@ NoConn ~ 5450 5100
 $Comp
 L power:+3.3V #PWR023
 U 1 1 5EC8C5B8
-P 3050 2700
-F 0 "#PWR023" H 3050 2550 50  0001 C CNN
-F 1 "+3.3V" H 3065 2873 50  0000 C CNN
-F 2 "" H 3050 2700 50  0001 C CNN
-F 3 "" H 3050 2700 50  0001 C CNN
-	1    3050 2700
+P 2550 3150
+F 0 "#PWR023" H 2550 3000 50  0001 C CNN
+F 1 "+3.3V" H 2565 3323 50  0000 C CNN
+F 2 "" H 2550 3150 50  0001 C CNN
+F 3 "" H 2550 3150 50  0001 C CNN
+	1    2550 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1123,19 +1123,19 @@ Text GLabel 5450 4400 2    50   Input ~ 0
 LED2
 Text GLabel 4550 3500 1    50   Input ~ 0
 SD_INSERT
-Text GLabel 4150 3500 1    50   Input ~ 0
+Text GLabel 3050 6900 3    50   Input ~ 0
 SW5
-Text GLabel 3450 6900 3    50   Input ~ 0
+Text GLabel 3150 6900 3    50   Input ~ 0
 SW4
 Text GLabel 3250 6900 3    50   Input ~ 0
 SW3
-Text GLabel 3150 6900 3    50   Input ~ 0
+Text GLabel 4150 3500 1    50   Input ~ 0
 SW2
 Text GLabel 3650 3500 1    50   Input ~ 0
 USART_TX
 Text GLabel 3550 3500 1    50   Input ~ 0
 USART_RX
-Text GLabel 3050 6900 3    50   Input ~ 0
+Text GLabel 3450 6900 3    50   Input ~ 0
 SW1
 Text GLabel 2650 3500 1    50   Input ~ 0
 ESC1_PWM

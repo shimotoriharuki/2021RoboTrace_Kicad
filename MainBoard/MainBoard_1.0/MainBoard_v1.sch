@@ -1123,19 +1123,19 @@ Text GLabel 5450 4400 2    50   Input ~ 0
 LED2
 Text GLabel 4550 3500 1    50   Input ~ 0
 SD_INSERT
-Text GLabel 4150 3500 1    50   Input ~ 0
+Text GLabel 3150 6900 3    50   Input ~ 0
 SW5
-Text GLabel 3450 6900 3    50   Input ~ 0
+Text GLabel 3050 6900 3    50   Input ~ 0
 SW4
 Text GLabel 3250 6900 3    50   Input ~ 0
 SW3
-Text GLabel 3150 6900 3    50   Input ~ 0
+Text GLabel 4150 3500 1    50   Input ~ 0
 SW2
 Text GLabel 3650 3500 1    50   Input ~ 0
 USART_TX
 Text GLabel 3550 3500 1    50   Input ~ 0
 USART_RX
-Text GLabel 3050 6900 3    50   Input ~ 0
+Text GLabel 3450 6900 3    50   Input ~ 0
 SW1
 Text GLabel 2650 3500 1    50   Input ~ 0
 ESC1_PWM
