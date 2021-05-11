@@ -1,4 +1,4 @@
-19558871700270299
+19562284378159582
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60319,6 +60319,13 @@ Resistor LDR
 2
 2
 OptoDevice
+S7136
+
+
+0
+4
+4
+OptoDevice
 ST_VL53L0X
 https://www.st.com/resource/en/datasheet/vl53l1x.pdf
 laser-ranging sensor
@@ -79166,6 +79173,13 @@ Symbol
 RoHS-Logo_40mm_SilkScreen
 Restriction of Hazardous Substances Directive Logo
 Logo RoHS
+0
+0
+0
+Symbol
+SH-Logo_10x10mm
+
+
 0
 0
 0
