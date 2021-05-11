@@ -1,4 +1,4 @@
-19558871700270299
+19560663648769938
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60318,6 +60318,13 @@ Resistor LDR
 0
 2
 2
+OptoDevice
+S7136
+
+
+0
+0
+0
 OptoDevice
 ST_VL53L0X
 https://www.st.com/resource/en/datasheet/vl53l1x.pdf
