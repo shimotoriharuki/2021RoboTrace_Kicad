@@ -1,1 +1,4 @@
-# 2020RoboTrace_Kicad
+# 2021RoboTrace_Kicad
+
+# License
+GPL
